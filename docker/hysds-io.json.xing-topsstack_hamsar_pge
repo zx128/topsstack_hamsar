@@ -1,0 +1,61 @@
+{
+  "submission_type": "individual",
+  "params": [
+    {
+      "name": "min_lat",
+      "from": "submitter",
+      "type": "text",
+      "default": "35.57793709766442"
+    },
+    {
+      "name": "max_lat",
+      "from": "submitter",
+      "type": "text",
+      "default": "36.21619047354823"
+    },
+    {
+      "name": "min_lon",
+      "from": "submitter",
+      "type": "text",
+      "default": "-84.70058767311058"
+    },
+    {
+      "name": "max_lon",
+      "from": "submitter",
+      "type": "text",
+      "default": "-83.94773267597341"
+    },
+    {
+      "name": "bbox",
+      "from": "submitter",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "master_date",
+      "from": "submitter",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "start_date",
+      "from": "submitter",
+      "type": "text",
+      "default": "2020-10-01"
+    },
+    {
+      "name": "end_date",
+      "from": "submitter",
+      "type": "text",
+      "default": "2020-10-31"
+    },
+    {
+      "name": "track_number",
+      "from": "submitter",
+      "type": "text",
+      "default": "7"
+    }
+  ],
+  "component": "tosca",
+  "label": "topsStack Processor for HAMSAR"
+}
